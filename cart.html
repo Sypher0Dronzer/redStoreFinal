@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore-All products</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" /></a>
+      </div>
+      <nav class="nav-items">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact-us.html">Contact</a>
+        <a href="login.html">Account</a>
+      </nav>
+      <div class="icon-img">
+        <a href="cart.html"><img src="images/cart.png" class="cart"/></a>
+        <span>3</span>
+        <img src="images/menu.png" class="menu" onclick="menuToggle()" />
+      </div>
+    </div>
+
+    <!-- ------Cart Table-------- -->
+    <div class="cart-table">
+      <h3 class="product-header">Product</h3>
+      <h3 >Quantity</h3>
+      <h3>Subtotal</h3>
+
+      <div class="product-selected">
+        <a href="product-details.html"
+          ><img src="images/product-1.jpg" alt=""
+        /></a>
+        <div class="product-text">
+          <h4>Red printed t-shirt</h4>
+          <p>$50.00</p>
+          <small class="remove">Remove</small>
+        </div>
+      </div>
+      <div class="qty"><input type="number" value="1" /></div>
+      <div class="subtotal">$50.00</div>
+
+      <div class="product-selected">
+        <a href="product-details.html"
+          ><img src="images/product-1.jpg" alt=""
+        /></a>
+        <div class="product-text">
+          <h4>Red printed t-shirt</h4>
+          <p>$50.00</p>
+          <small class="remove">Remove</small>
+        </div>
+      </div>
+      <div class="qty"><input type="number" value="1" /></div>
+      <div class="subtotal">$50.00</div>
+
+      <div class="product-selected">
+        <a href="product-details.html"
+          ><img src="images/product-1.jpg" alt=""
+        /></a>
+        <div class="product-text">
+          <h4>Red printed t-shirt</h4>
+          <p>$50.00</p>
+          <small class="remove">Remove</small>
+        </div>
+      </div>
+      <div class="qty"><input type="number" value="1" /></div>
+      <div class="subtotal">$50.00</div>
+    </div>
+    <div class="total-container">
+      <div class="total-grid">
+        <h4>Subtotal</h4>
+        <div>$150.00</div>
+        <h4>Tax</h4>
+        <div>$35.00</div>
+        <h4>Total</h4>
+        <div>$185.00</div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="foot-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="store-imgs">
+            <img src="images/play-store.png" alt="" />
+            <img src="images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="foot-col-2">
+          <img src="images/logo-white.png" alt="" />
+          <p>
+            Our purpose is to sustainabily make the pleasure and benefits of
+            sports accessible to the many.
+          </p>
+        </div>
+        <div class="foot-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="foot-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">&#169; Copyright</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
